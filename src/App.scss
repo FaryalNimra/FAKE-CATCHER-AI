@@ -1,0 +1,41 @@
+/* ===== Import Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Gilroy:wght@400;700&display=swap');
+
+/* ===== Global Styling ===== */
+body {
+  font-family: 'Gilroy', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+/* ===== General Transition for All Elements ===== */
+* {
+  transition: all 0.5s ease-in-out;
+  scroll-behavior: smooth;
+}
+
+/* ===== Default Link Styling ===== */
+a {
+  color: #23329B; /* ✅ Default link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* ===== Scroll-Based Animations ===== */
+.hidden {
+  opacity: 0;
+  transform: translateY(30px); /* Neeche se aaye */
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Page Load Animation ===== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

@@ -1,0 +1,61 @@
+/* Default Styles */
+.element9-container {
+  margin: 0 auto;
+  text-align: center; /* Center align by default */
+  font-family: 'Gilroy-Bold', sans-serif;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.element9-heading {
+  margin-top: 100px;
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  color: red;
+  font-weight: bold;
+
+}
+
+.element9-paragraph1 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 50px;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.element9-subheading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: bold;
+
+}
+
+.element9-subparagraph {
+  font-size: 17px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  text-align: center; /* Center align by default */
+  margin: 0 auto; /* Center the container */
+  width: 50%; /* Set the width to make sure the text wraps into two lines */
+  white-space: normal; /* Ensure text wraps */
+  margin-bottom: 30px;
+}
+
+.img-fluidn1 {
+  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluidn11 {
+  margin-top: 5px;
+  max-width: 100%;
+  height: auto;
+  
+}
+.element9-container .icon {
+  font-size: 2rem;  // This will set the icon size for all icons inside the component to 2rem
+}
+
+

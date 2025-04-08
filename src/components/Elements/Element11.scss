@@ -1,0 +1,67 @@
+.element11-container {
+  background-color: #23329B;
+  background-size: cover;
+  background-position: center;
+  height: 90vh; // Increased height
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.element11-heading {
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.element11-paragraph {
+  font-size: 18px;
+  color: #f0f0f0;
+  text-align: left;
+}
+
+.element11-subheading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.element11-subparagraph {
+  font-size: 14px;
+  color: white;
+}
+
+.testimonial-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.testimonial-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.testimonial-btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white; // White background
+  border: none;
+  border-radius: 50%; // Circular shape
+  font-size: 24px;
+  color: #23329B; // Arrow color
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+
+  &:hover {
+    background: White;
+    color: #23329B;
+  }
+}

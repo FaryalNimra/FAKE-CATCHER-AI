@@ -1,0 +1,39 @@
+.blog {
+    background: white;
+    padding: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-title {
+    color: #23329B;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  .blog-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .blog-section {
+    padding: 25px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-section h2 {
+    color: #23329B;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .blog-section ul {
+    padding-left: 20px;
+  }
+  
+  .blog-section ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  

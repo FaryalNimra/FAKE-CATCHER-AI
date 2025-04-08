@@ -1,0 +1,115 @@
+.element7-container {
+  margin-top: 50px; // Forms ke upar wali heading ka margin
+  animation: fadeIn 1s ease-in-out;
+  color: red; // Main heading ka color red
+  
+
+}
+
+.element7-heading12 {
+  color: black; // Main heading ka color red
+  margin-bottom: 70px;
+  animation: slideDown 1s ease-in-out;
+}
+
+.row {
+  margin-bottom: 0; // Row ka bottom margin remove
+}
+
+.element7-new-form,
+.element7-new-form1 {
+  margin-top: 100px;
+  background-color: white; // Default white background
+  padding: 20px;
+  border-radius: 15px; // Border radius add
+  text-align: center;
+  color: black; // Text color blue
+  width: 100%;
+  max-width: 320px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #23329B;
+  margin-top: 20px; // Forms ka top margin
+  animation: scaleUp 0.8s ease-in-out;
+}
+
+.element7-new-form:hover,
+.element7-new-form1:hover {
+  background-color: #23329B; // Hover pe blue ho jayega
+  color: white; // Text white ho jayega
+  transform: scale(1.05);
+}
+
+.element7-new-heading,
+.element7-new-section-paragraph {
+  color: #23329B;
+  transition: color 0.3s ease-in-out;
+}
+
+.element7-new-form:hover .element7-new-heading,
+.element7-new-form:hover .element7-new-section-paragraph,
+.element7-new-form1:hover .element7-new-heading,
+.element7-new-form1:hover .element7-new-section-paragraph {
+  color: white;
+}
+
+.btn-primary {
+  background-color: #23329B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #23329B;
+  border: 2px solid #23329B;
+  transform: scale(1.1);
+}
+
+// Smooth spacer animation
+.element7-new-spacer {
+  height: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+// Keyframe animations
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

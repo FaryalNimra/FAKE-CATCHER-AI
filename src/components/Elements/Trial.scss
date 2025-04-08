@@ -1,0 +1,195 @@
+.trial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa; // Gradient for background
+  }
+  
+  .trial-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  .left-section {
+    width: 60%;  // Left section is smaller for the upload area
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #e0f7fa; // Gradient for left section
+    transition: all 0.3s ease;
+  }
+  
+  .right-section {
+    width: 40%;  /* Right section is larger */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #e0f7fa;  /* White background for results section */
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;  /* Ensure the section takes the full height of its container */
+    overflow: hidden;  /* Prevent overflow */
+    box-sizing: border-box;
+  }
+  
+  
+  /* Optional: Ensure the result section appears below the image */
+  .trial-result {
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  
+  .trial-paragraph {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .drag-drop-zone {
+    border: 2px dashed #1e3a8a;
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    color: #1e3a8a;
+    background-color: #f7f7f7;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .drag-over {
+    background-color: #b3e5fc;
+    border-color: #1e3a8a;
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-upload-label {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-upload-label:hover {
+    background-color: #0d2a54;
+  }
+  
+  .trial-file-upload {
+    display: none;
+  }
+  
+  .trial-upload-btn {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 80%;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trial-upload-btn:hover {
+    background-color: #0d2a54;
+  }
+  
+  .preview-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .trial-result {
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .result-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #161C2D;
+    margin-bottom: 10px;
+  }
+  
+  .result-details {
+    text-align: left;
+  }
+  
+  .result-details p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .fake-type {
+    color: red;
+  }
+  
+  .loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #1e3a8a;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin-top: 100px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .demo-text {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+    animation: fadeInOut 2.5s ease-in-out infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

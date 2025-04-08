@@ -1,0 +1,75 @@
+.about4-container {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+  margin-top: 150px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.incident-row {
+  margin-bottom: 15px;
+}
+
+.incident-marquee {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 14px;
+  border-radius: 5px;
+  border-left: 6px solid red;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 22px; /* Bigger text */
+  color: red;
+}
+
+.alert-icon {
+  font-size: 24px; /* Bigger icon */
+  color: red;
+  margin-right: 5px;
+}
+
+.alert-text {
+  color: red;
+  font-size: 20px;
+}
+
+.scenario-box {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.scenario-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.learn-more {
+  color: blue;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.expanded-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.close-text {
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+}

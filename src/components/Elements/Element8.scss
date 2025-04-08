@@ -1,0 +1,53 @@
+/* Default Styles */
+.element8-container {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Gilroy-Bold', sans-serif;
+  margin-top: 70px;
+  background-color: aliceblue;
+  max-width: 100%;
+  margin-bottom: 100px;
+}
+
+.element8-heading {
+  font-size: 23px;
+  margin-bottom: 50px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: bold;
+
+}
+
+.element8-heading2 {
+  font-size: 18px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  color: red;
+  margin-top: 50px;
+  font-weight: bold;
+   /* Adjust margin-top to ensure it is 50px below .element8-container */
+}
+
+.element8-content {
+  margin-bottom: 30px;
+}
+
+.element8-subheading {
+  font-size: 20px;
+  margin-left: 15px; /* Adjust space between icon and heading */
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: bold;
+
+}
+
+.element8-subparagraph {
+  font-size: 18px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  text-align: left;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  max-width: 95%;
+}
+
+.img-fluidn {
+  max-width: 50px; /* Adjust the size of the icon */
+  height: auto;
+}

@@ -1,0 +1,51 @@
+/* Default Styles (For larger screens) */
+.element5-container {
+  padding: 0;
+  margin-top: 200px;
+  
+}
+
+.element5-heading,
+.element5-paragraph,
+.demo-link1 {
+  padding-left: 15px; /* Common left padding for alignment */
+}
+
+.element5-heading {
+  margin-top: 40px;
+  font-size: 35px;
+  margin-bottom: 10px;
+
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.element5-paragraph {
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  max-width: 95%;
+}
+
+.img-fluidhf {
+  max-width: 90%;
+  height: auto;
+}
+
+.demo-link1 {
+  text-decoration: none;
+  color: #23329B;
+  font-family: 'Gilroy-Bold', sans-serif;
+  display: inline-flex;
+  align-items: center;
+}
+
+.demo-icon1 {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+/* Media Queries */

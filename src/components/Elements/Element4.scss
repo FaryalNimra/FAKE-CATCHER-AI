@@ -1,0 +1,41 @@
+/* Default Styles */
+.element4-container {
+  padding: 0px;
+  margin-top: 150px;
+}
+
+.element4-heading {
+  font-size: 30px; /* 30px */
+  text-align: left;
+  margin-top: 2.25rem; /* 90px */
+  font-weight: bold;
+  
+  margin-top: 30px;
+}
+
+.element4-paragraph {
+  margin-top: 1.25rem; /* 20px */
+  font-size: 18px; /* 15px */
+  margin-bottom: 1.25rem; /* 20px */
+  font-family: 'Gilroy-Regular', sans-serif;
+  margin-left: 0px;
+  max-width: 90%;
+}
+
+.demo-link {
+  text-decoration: none;
+  color: #23329B;
+  font-family: 'Gilroy-Bold', sans-serif;
+
+}
+
+.demo-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px; /* Adjust margin to add space between text and icon */
+}
+
+.video-iframe {
+  margin-top: 20px; /* Adjust the value as needed */
+}
+

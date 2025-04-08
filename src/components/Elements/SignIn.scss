@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.signin-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background: #f4f4f9;
+
+  .signin-box {
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 500px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .signin-left {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+
+    h2 {
+      position: absolute;
+      bottom: 20%; // Moved text higher from bottom
+      color: #23329B; // Text color changed to blue
+      font-weight: 600;
+    }
+  }
+
+  .signin-right {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .signin-title {
+      font-size: 28px;
+      font-weight: 600;
+      color: #23329B;
+      margin-bottom: 10px;
+    }
+
+    .signin-text {
+      font-size: 14px;
+      text-align: left;
+
+      a {
+        color: #a389ff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+    }
+
+    .signin-form {
+      margin-top: 20px;
+
+      .form-control {
+        background: #f8f8f8;
+        border: 1px solid #ddd;
+        color: black;
+        padding: 12px;
+        border-radius: 5px;
+        font-family: "Poppins", sans-serif; // Match heading font
+      }
+
+      .password-field {
+        position: relative;
+
+        span {
+          position: absolute;
+          right: 15px;
+          top: 50%;
+          transform: translateY(-50%);
+          cursor: pointer;
+          color: #333; // Fix icon color
+        }
+      }
+
+      .terms {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 14px;
+
+        a {
+          color: #a389ff;
+          text-decoration: none;
+        }
+      }
+
+      .btn-primary {
+        background: #23329B;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 5px;
+        color: white; // Fix button text color
+      }
+
+      .divider {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 14px;
+        color: #aaa;
+      }
+
+      .social-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        .btn {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 14px;
+          padding: 10px 20px;
+          border-radius: 5px;
+          color: white; // Fix social button text
+          background: #23329B;
+          border: 1px solid #23329B;
+        }
+      }
+    }
+  }
+}

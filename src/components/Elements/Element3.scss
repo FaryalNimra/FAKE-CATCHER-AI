@@ -1,0 +1,52 @@
+/* Container */
+.element3-container {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Column Styling */
+.element3-col {
+  padding: 15px;
+}
+
+/* Card Design */
+.element3-card {
+  background: linear-gradient(135deg, #23329B, #161C2D); /* Gradient Effect */
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* Heading */
+.element3-heading {
+  font-size: 42px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Paragraph */
+.element3-paragraph {
+  font-size: 18px;
+  font-family: "Gilroy-Regular", sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 90%;
+}
